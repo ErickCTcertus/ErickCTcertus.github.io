@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+
+h1{
+    background-color: crimson;
+    color: rgb(250, 123, 84);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    text-shadow: -2px 0 rgb(255, 254, 254), 0 2px rgb(255, 255, 255), 2px 0 #ffffff, 0 -2px rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(145, 189, 255);
+    color: #000;
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    margin-bottom: auto;
+    margin: 12px;
+}
+.menu{
+    text-align: center;
+    margin: 0;
+}
+.menu a{
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    font-size: 42px;
+    display: block;
+}
+.menu li{
+    color: #000;
+    display: inline-block;
+    text-shadow: 2px 2px 9px #a436fd; 
+}
+.menu a:hover{
+    background-color: rgb(255, 198, 145);
+}
+.todo{
+    background-color: rgb(145, 189, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px  9px #13ff26;
+    margin: 5px;
+}
+.mapa{
+    text-align: center;
+    font-size: 33px;
+}
+
+
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 rgb(255, 98, 98);
+}
+.lista{
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+    margin: 3px;
+    font-size: 19px;
+}
+tr, td{
+    width: 10%;
+    text-align: center;
+    /*solid, dashed, doted*/
+    border: 2px solid blue;
+    vertical-align: top;
+}
+caption{
+    background-color: rgb(99, 255, 79);
+    color: #ffffff;
+    border: 2px solid rgb(5, 84, 255);
+    padding: 5px;
+    font-size: 25px;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2, 3px 3px #6ac7c2;
+
+
+}
+.a1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b2{
+    color: #610041;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c3{
+    color: rgb(0, 82, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(188, 247, 255);
+    color: rgb(21, 5, 255);
+    font-size: 22px;
+    text-align: end;
+    margin: 2px;
+}
+footer img{
+    background-color: #ffffff;
+    width: 30px;
+    float: right;
+    margin-block-end: 3px;
+}
