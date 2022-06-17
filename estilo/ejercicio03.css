@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/imagenes/web-technologies-4k-wallpaper.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.Sem;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    text-shadow: -2px 0 rgb(255, 254, 254), 0 2px rgb(255, 255, 255), 2px 0 #ffffff, 0 -2px rgb(255, 255, 255);
+
+}
+h1{
+    text-shadow: 3px 3px 8px #070707;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.a{
+    
+    display: inline-block;
+    text-decoration: none;
+    font-size: 45px;
+}
+ul{
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+}
+ul .a {
+    /* background-color: #fff; */
+    color: rgb(240, 10, 10);
+    text-shadow: -2px 1px rgb(153, 0, 255), 1px 2px rgb(153, 0, 255), 2px 0 #0a0a0a, 0 -2px rgb(153, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a:hover{
+    color: rgb(153, 0, 255);
+}
+footer{
+    text-align: center;
+    font-size: 39px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.993);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    width: 1.Sem;
+    height: 67px;
+}
+.ft{
+    width: 15%;
+}
