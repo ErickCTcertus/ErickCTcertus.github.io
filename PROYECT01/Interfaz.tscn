@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Interfaz.gd" type="Script" id=1]
+
+[node name="Interfaz" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="Record" type="Label" parent="."]
+margin_left = 731.0
+margin_top = 20.0
+margin_right = 862.0
+margin_bottom = 34.0
+rect_scale = Vector2( 2, 2 )
+text = "Tiempo maximo 60s"
+
+[node name="Etiqueta" type="Label" parent="."]
+margin_left = 485.0
+margin_top = 19.0
+margin_right = 537.0
+margin_bottom = 33.0
+rect_scale = Vector2( 2, 2 )
+text = "Tiempo:"
+
+[node name="PunteoLabe" type="Label" parent="."]
+margin_left = 601.0
+margin_top = 14.0
+margin_right = 618.0
+margin_bottom = 28.0
+rect_scale = Vector2( 3, 3 )
+text = "0"
+
+[node name="Mensaje" type="Label" parent="."]
+margin_left = 267.0
+margin_top = 187.0
+margin_right = 446.0
+margin_bottom = 201.0
+rect_scale = Vector2( 3, 3 )
+text = "Game Epick v.beta 0.1"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 415.0
+margin_top = 283.0
+margin_right = 467.0
+margin_bottom = 303.0
+rect_scale = Vector2( 2, 2 )
+text = "Iniciar"
+
+[node name="MensajeTimer" type="Timer" parent="."]
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="timeout" from="MensajeTimer" to="." method="_on_MensajeTimer_timeout"]
